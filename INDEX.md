@@ -34,6 +34,9 @@
 ### UI
 - [2026-03-12 · Control UI 显示 gateway token missing，Telegram 会话不显示 / 已读不回](./ui/2026-03-12-control-ui-gateway-token-missing-telegram-session-not-visible.md)
 
+### Gateway
+- [2026-03-12 · 新增 `openclaw-self-maintenance` skill，用于固化自身问题处理后的 issues 记录与推送](./gateway/2026-03-12-add-openclaw-self-maintenance-skill-for-issue-capture.md)
+
 ### Nodes
 - [2026-03-12 · node host 已配对但未连接，导致 exec 不可用](./nodes/2026-03-12-node-host-paired-but-disconnected-exec-unavailable.md)
 - [2026-03-12 · Node service 未加载，通过 launchctl bootstrap/kickstart 恢复](./nodes/2026-03-12-node-service-launchagent-not-loaded-recovered-by-bootstrap-kickstart.md)
