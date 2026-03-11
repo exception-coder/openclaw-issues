@@ -1,39 +1,20 @@
-# OpenClaw Issues
+# OpenClaw Knowledge
 
-这是 OpenClaw 的问题记录与排查知识库。
+这里是 OpenClaw 相关知识沉淀的父目录，统一收纳两类内容：
 
-## 入口
+- [`issues/`](./issues/)：故障、排查、修复、复盘
+- [`capabilities/`](./capabilities/)：已经形成并验证过的能力、方法、实战案例
 
-- 总索引：[`INDEX.md`](./INDEX.md)
-- 故障模板：[`TEMPLATE.md`](./TEMPLATE.md)
+## 设计目的
 
-## 分类目录
+把“问题记录”和“能力沉淀”放到同一个知识域下，但保持各自边界：
 
-- [`ui/`](./ui/)
-- [`channels/`](./channels/)
-- [`gateway/`](./gateway/)
-- [`nodes/`](./nodes/)
-- [`sessions/`](./sessions/)
-- [`patterns/`](./patterns/)
+- `issues` 回答：出了什么问题，怎么查，怎么修
+- `capabilities` 回答：我现在会什么，在哪些场景已经做成过
 
-## 使用约定
+## 当前结构
 
-1. 新问题优先按分类放入子目录
-2. 文件名统一使用 `YYYY-MM-DD-主题.md`
-3. 新建问题优先从 `TEMPLATE.md` 复制
-4. 记录时优先写：
-   - 现象
-   - 检查项
-   - 根因
-   - 修复命令
-   - 风险与回滚
-
-## 当前重点
-
-当前已沉淀的高价值问题集中在：
-
-- Control UI 认证/显示异常
-- Node host / Node service 未连接或未加载
-- system.run 不可用导致 exec 失效
-
-建议优先从 `INDEX.md` 检索。
+- [`issues/README.md`](./issues/README.md)
+- [`issues/INDEX.md`](./issues/INDEX.md)
+- [`capabilities/README.md`](./capabilities/README.md)
+- [`capabilities/INDEX.md`](./capabilities/INDEX.md)
