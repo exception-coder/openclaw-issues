@@ -1,38 +1,39 @@
-# Issues
+# OpenClaw Issues
 
-这里记录 OpenClaw 使用过程中的故障、排查过程、修复动作和复盘结论。
+这是 OpenClaw 的问题记录与排查知识库。
 
-## 目的
+## 入口
 
-- 避免同类问题重复排查
-- 形成可检索的故障知识库
-- 为后续配置优化和稳定性改进提供依据
+- 总索引：[`INDEX.md`](./INDEX.md)
+- 故障模板：[`TEMPLATE.md`](./TEMPLATE.md)
 
-## 建议命名方式
+## 分类目录
 
-文件名建议使用：
+- [`ui/`](./ui/)
+- [`channels/`](./channels/)
+- [`gateway/`](./gateway/)
+- [`nodes/`](./nodes/)
+- [`sessions/`](./sessions/)
+- [`patterns/`](./patterns/)
 
-- `YYYY-MM-DD-主题.md`
+## 使用约定
 
-例如：
+1. 新问题优先按分类放入子目录
+2. 文件名统一使用 `YYYY-MM-DD-主题.md`
+3. 新建问题优先从 `TEMPLATE.md` 复制
+4. 记录时优先写：
+   - 现象
+   - 检查项
+   - 根因
+   - 修复命令
+   - 风险与回滚
 
-- `2026-03-12-control-ui-gateway-token-missing-telegram-session-not-visible.md`
+## 当前重点
 
-## 建议结构
+当前已沉淀的高价值问题集中在：
 
-每个问题记录尽量包含：
+- Control UI 认证/显示异常
+- Node host / Node service 未连接或未加载
+- system.run 不可用导致 exec 失效
 
-1. **问题现象**
-2. **初步判断**
-3. **检查过程**
-4. **根因结论**
-5. **采取的修复**
-6. **修复结果**
-7. **后续建议**
-8. **可复用经验**
-
-## 当前记录
-
-- [2026-03-12 · Control UI 显示 gateway token missing，Telegram 会话不显示 / 已读不回](./2026-03-12-control-ui-gateway-token-missing-telegram-session-not-visible.md)
-- [2026-03-12 · node host 已配对但未连接，导致 exec 不可用](./2026-03-12-node-host-paired-but-disconnected-exec-unavailable.md)
-- [2026-03-12 · Node service 未加载，通过 launchctl bootstrap/kickstart 恢复](./2026-03-12-node-service-launchagent-not-loaded-recovered-by-bootstrap-kickstart.md)
+建议优先从 `INDEX.md` 检索。
