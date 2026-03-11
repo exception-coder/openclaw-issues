@@ -36,6 +36,7 @@
 
 ### Gateway
 - [2026-03-12 · 新增 `openclaw-self-maintenance` skill，用于固化自身问题处理后的 issues 记录与推送](./gateway/2026-03-12-add-openclaw-self-maintenance-skill-for-issue-capture.md)
+- [2026-03-12 · 新增 `docs/capabilities` 目录，用于记录能力与实际案例](./gateway/2026-03-12-add-capabilities-directory-for-ability-and-scenario-tracking.md)
 
 ### Nodes
 - [2026-03-12 · node host 已配对但未连接，导致 exec 不可用](./nodes/2026-03-12-node-host-paired-but-disconnected-exec-unavailable.md)
