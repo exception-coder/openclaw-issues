@@ -4,6 +4,7 @@
 
 - [自动记录 OpenClaw 自身问题并推送 issues 仓库](./abilities/auto-record-and-push-openclaw-issues.md)
 - [通过 skill 驱动 OpenClaw 自维护与知识沉淀](./abilities/skill-driven-openclaw-self-maintenance-and-knowledge-curation.md)
+- [区分 systemEvent 提醒展示与真实会话/投递故障并完成排查](./abilities/diagnose-systemevent-reminder-vs-session-delivery-failures.md)
 
 ## Scenarios
 
