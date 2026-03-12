@@ -33,6 +33,7 @@
 
 ### UI
 - [2026-03-12 · Control UI 显示 gateway token missing，Telegram 会话不显示 / 已读不回](./ui/2026-03-12-control-ui-gateway-token-missing-telegram-session-not-visible.md)
+- [2026-03-12 · Control UI 会话被错误显示为 `heartbeat`，且 `~/.openclaw/skills/public` 下 skills 未进入技能菜单](./ui/2026-03-12-control-ui-session-heartbeat-label-corruption-and-public-skills-not-listed.md)
 
 ### Gateway
 - [2026-03-12 · 新增 `openclaw-self-maintenance` skill，用于固化自身问题处理后的 issues 记录与推送](./gateway/2026-03-12-add-openclaw-self-maintenance-skill-for-issue-capture.md)
