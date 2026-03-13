@@ -28,6 +28,7 @@
 | `exec host=node requires a node that supports system.run` | node 是否在线、节点绑定、Node service 状态 | 恢复 node host / Node service |
 | `Node service ... not loaded` | macOS LaunchAgent 是否加载 | `launchctl bootstrap` + `launchctl kickstart` |
 | `No nodes with system.run available` | 节点是否回连、是否存在可执行 node | 恢复 node service，检查节点绑定 |
+| 对外发布动作超时后出现重复发送/重复发帖 | 是否把“超时”误判为“失败”并直接重试；是否混用了多条执行链路 | 先查是否已落地，再决定是否补发；单次发布只保留一条执行链路 |
 
 ## 当前问题记录
 
@@ -38,6 +39,9 @@
 ### Gateway
 - [2026-03-12 · 新增 `openclaw-self-maintenance` skill，用于固化自身问题处理后的 issues 记录与推送](./gateway/2026-03-12-add-openclaw-self-maintenance-skill-for-issue-capture.md)
 - [2026-03-12 · 新增 `docs/capabilities` 目录，用于记录能力与实际案例](./gateway/2026-03-12-add-capabilities-directory-for-ability-and-scenario-tracking.md)
+
+### Channels
+- [2026-03-13 · 小红书发布超时后重复触发，导致重复发帖](./channels/2026-03-13-xiaohongshu-publish-timeout-retry-caused-duplicate-posts.md)
 
 ### Nodes
 - [2026-03-12 · node host 已配对但未连接，导致 exec 不可用](./nodes/2026-03-12-node-host-paired-but-disconnected-exec-unavailable.md)
